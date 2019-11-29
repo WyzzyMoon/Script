@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+* ================= SCRIPT TRANSLATOR =================
+* Date: 29-11-2019
+* Version: 1.0
+* Script is a script designed and created by Wikke Andeweg
+* info@wikkeandeweg.nl
+* https://www.wikkeandeweg.nl
+*
+* License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (CC BY-NC-SA 3.0)
+* https://creativecommons.org/licenses/by-nc-sa/3.0/
+* ======================================================
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Script</title>
+  <!--<link rel="shortcut icon" type="image/png" href="favicon.png">-->
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="libraries/p5.min.js"></script>
+  <script type="text/javascript" src="libraries/p5.dom.min.js"></script>
+
+
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="SU.js"></script>
+  <script type="text/javascript" src="charlist.js"></script>
+
+
+
+  <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+</head>
+<body>
+  <div id="menu" class=inputlables>
+    Input <textarea autofocus rows="5" cols="30" id="iInput" class="value"></textarea><br>
+
+    Size <input type="range" id="iSize" min="10" max="150" value="60" class="slider"><br>
+    Color <input type="color" id="iColor" class="color" title="Color of Script"><br>
+    Background Color <input type="color" id="iBGColor" class="color" title="Color of the background"><br>
+    Style <select id="iStyle" class="style">
+      <option value="Round">Round</option>
+      <option value="Square">Square</option>
+    </select> <br>
+    <br><p class="credit">
+  Script translator v1.0<br>
+  Script <a href="https://wikkeandeweg.nl/images/Script/Translation-Guide-1.5.pdf">v1.5</a><br>
+  ©<script>document.write(new Date().getFullYear());</script> by <a href="https://www.wikkeandeweg.nl">Wikke Andeweg</a>
+</p>
+  </div>
+
+</body>
+</html>
